@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Ecommerce Buddy Chat</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff, #00ffff);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s infinite;
+            color: #333; /* Professional text color */
+            transition: color 0.5s ease-in-out;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        header {
+            background: linear-gradient(to right, #ff00ff, #00ffff);
+            padding: 1em;
+            text-align: center;
+            transition: background 0.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: linear-gradient(to right, #ff00ff, #00ffff);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: background 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+        }
+
+        iframe {
+            min-width: 400px;
+            width: 100%;
+            min-height: 500px;
+            border: none;
+        }
+
+        /* Additional subtle hallucination effect */
+        body:hover, header:hover, main:hover {
+            color: #555; /* Slightly darker text color on hover */
+            background: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff, #ff00ff);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ecommerce Buddy Chat</h1>
+    </header>
+    <main>
+        <iframe src="https://webchat.botframework.com/embed/AIEcommerceChatbot-bot?s=HsNEoMpPyEM.RsGTysXe_X6R3hTq8YHHPIa8Nq6fLh2ndNhdJIgGqXo" style="min-width: 400px; width: 100%; min-height: 500px;"></iframe>
+    </main>
+</body>
+</html>
